@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   # READ
   get("/departments", { :controller => "departments", :action => "index" })
   
-  #get("/departments/:path_id", { :controller => "departments", :action => "show" })
+  get("/departments/:path_id", { :controller => "departments", :action => "show" })
 
   #------------------------------
 
